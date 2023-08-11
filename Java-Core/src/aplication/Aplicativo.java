@@ -16,7 +16,7 @@ public class Aplicativo {
 		// Interação do triângulo X
 		System.out.println("Informe os lados do triangulo X: ");
 		X.ladoA = sc.nextDouble();
-		X.ladoB = sc.nextDouble();;
+		X.ladoB = sc.nextDouble();
 		X.ladoC = sc.nextDouble();
 		
 		
