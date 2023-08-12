@@ -29,3 +29,5 @@ public class Start_Statico_1 {
 		return 4.0 * PI * radius * radius * radius / 3.0;
 	}
 }
+
+// Todas as vezes que estiver codificando e o objeto/variavel/classe tiver um comportamento que não muda, é utilizado o Static. 
