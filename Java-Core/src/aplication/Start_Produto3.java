@@ -5,7 +5,6 @@ import java.util.Scanner;
 import entities.Produto2;
 
 
-
 public class Start_Produto3 {
 
 	public static void main(String[] args) {
@@ -31,8 +30,14 @@ public class Start_Produto3 {
 		produto.addProduto(quantidade); // Para garantir a segurança da Classe, utilizamos addProduto no lugar de setQuantidade(). Deixando o setQuantidade é deixado um espaço para quebra de segurança do sistema.
 		
 		System.out.println("Valor total em Estoque: R$" + produto.valorTotalEmEstoque());
+		
+		System.out.println("Informe a quantidade para remover do estoque: ");
+		quantidade = sc.nextInt();
+		produto.removeProduto(quantidade);
+		
+		System.out.println("Informações do Produto: " + "\nNome: "+ produto.getNome() + " - Preço R$" + produto.getPreco() + " - Quantidade " + produto.getQuantidade());
+		System.out.println("Valor total em Estoque: R$" + produto.valorTotalEmEstoque());
 		sc.close();
-
 	}
 
 }
