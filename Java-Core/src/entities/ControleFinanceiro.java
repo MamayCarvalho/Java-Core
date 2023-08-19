@@ -84,10 +84,12 @@ public class ControleFinanceiro {
 		case 4: 
 			System.out.println("Obrigada por utilizar o nosso sistema. Nos vemos na próxima!! ");
 			break;
+			
 		default: 
 			System.out.println("Opção inválida! Selecione uma opção válida.");
 			selecaoMenu(sc);
 			break;
+			
 			}
 		}
 		
@@ -117,10 +119,11 @@ public class ControleFinanceiro {
 		case 'n','N':
 			
 			selecaoMenu(sc);
+			break;
 		
 		default: 
 			System.out.println("Opção inválida! Selecione uma opção válida.");
-			selecaoMenu(sc);
+			
 			break;
 		}
 	}
