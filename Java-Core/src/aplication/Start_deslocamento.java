@@ -29,9 +29,8 @@ public class Start_deslocamento {
 		double velocidade = sc.nextDouble();
 		deslocamento.setVelocidade(velocidade);
 		
-		System.out.printf("A distância total é: %.2f" , deslocamento.calcularDistancia());
-		
-		System.out.printf("%nO tempo de deslocamento entre os dois pontos é: %.2f" , deslocamento.calcularTempo());
+		System.out.print(deslocamento);
+	
 		
 		sc.close();
 

@@ -68,6 +68,10 @@ public class Deslocamento {
 		double tempo = calcularDistancia() / velocidade;
 		return tempo;
 	}
+	
+	public String toString() {
+		return "A distância total é:" + String.format("%.2f" , calcularDistancia()) + "\nO tempo de deslocamento entre os dois pontos é: " + String.format("%.2f", calcularTempo());
+	}
 	/*
 	 * Para usar esta classe, você pode criar um objeto Deslocamento e definir os valores dos atributos x1, y1, x2, y2.
 	 * Em seguida, você pode chamar o metodo calcularDistancia() para obter a distância entre os dois pontos e 
