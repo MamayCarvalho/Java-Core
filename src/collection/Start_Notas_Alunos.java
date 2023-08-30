@@ -41,7 +41,7 @@ public class Start_Notas_Alunos {
 					notasAlunos.getNota2() + "\t" +
 					notasAlunos.getNota3() + "\t\n");
 			//System.out.print(notasAlunos.toString()); 
-		
+			// Aula 29/08
 		}
 		sc.close();
 	}

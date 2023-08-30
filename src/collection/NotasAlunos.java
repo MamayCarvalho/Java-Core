@@ -49,6 +49,6 @@ public class NotasAlunos {
 	public void setNota3(double nota3) {
 		this.nota3 = nota3;
 	}	
-	
+	// Aula 29/08
 
 }
