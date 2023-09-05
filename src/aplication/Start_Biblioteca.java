@@ -1,5 +1,9 @@
 package aplication;
-
+/**
+ * @author Mayara Brandão de Carvalho
+ * {@link} https://github.com/MamayCarvalho/Biblioteca
+ * 
+ * */
 import java.util.Scanner;
 
 import entities.Biblioteca;
