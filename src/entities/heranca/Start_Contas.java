@@ -19,6 +19,7 @@ public class Start_Contas {
 		
 		ContaEmpresa contaPF5 = (ContaEmpresa) contaPF3;
 		ContaEmpresa contaPF6 = (ContaEmpresa) contaPF3; // Aqui ela permite o recebimento, pois rebaixamos contaPF3 da Classe Conta para a Classe ContaEmpresa.
+		contaPF6.emprestimo(100.0);
 	}
 
 }
