@@ -17,7 +17,7 @@ public class ContaEmpresa extends Conta {
 	 * Construtor padrão da classe ContaEmpresa
 	 */
 	public ContaEmpresa() {
-
+		super();
 	}
 
 	/**
